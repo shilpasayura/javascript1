@@ -1,0 +1,32 @@
+.container{
+    background-color:#48D7E9;
+	width: 450px;
+}
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
+    background-color:white;
+  }
+  
+  .grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    height: 400px;
+    margin-top:10px;
+  }
+  
+  .mole {
+    background-image: url('mole.png');
+    background-size: cover;
+  }
+  
+  .mole:hover{
+      cursor: pointer;
+  }
